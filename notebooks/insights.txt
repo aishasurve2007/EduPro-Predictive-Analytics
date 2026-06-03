@@ -1,0 +1,277 @@
+Final EDA Insights
+
+1. Artificial Intelligence is the Top Revenue Category
+Category	Revenue
+Artificial Intelligence	202,750.67
+Business	181,527.58
+Project Management	169,103.21
+
+AI generates the highest revenue on the platform.
+
+Recommendation
+
+Increase investment in:
+
+AI
+Deep Learning
+Computer Vision
+Generative AI
+
+These appear to have the strongest commercial potential.
+
+
+
+
+
+
+
+2. Business and Project Management Are Strong Secondary Revenue Drivers
+
+Combined revenue:
+
+181,527.58+169,103.21
+=350,630.79
+
+This exceeds the AI category alone.
+
+Recommendation
+
+Continue expanding:
+
+Business Strategy
+Leadership
+Project Management
+
+The platform's revenue is not dependent solely on technical courses.
+
+
+
+
+
+
+
+
+
+
+3. Revenue Concentration Exists
+
+Bottom categories:
+
+Category	Revenue
+Machine Learning	133.38
+Marketing	0.00
+Web Development	16,682.15
+Recommendation
+
+Review:
+
+Course quality
+Pricing
+Promotion strategy
+Category positioning
+
+These categories may require intervention.
+
+
+
+
+
+
+
+
+
+
+
+
+
+4. Beginner Courses Generate the Highest Revenue
+Level	Average Revenue
+Beginner	17,572.45
+Intermediate	14,681.44
+Advanced	13,239.82
+Business Interpretation
+
+Beginner courses generate approximately:
+
+13240
+17572−13240
+	​
+
+≈33%
+
+more revenue than advanced courses.
+
+Recommendation
+
+Expand beginner-level offerings because they attract larger audiences.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5. Course Ratings Positively Affect Demand
+
+Correlation:
+
+CourseRating ↔ EnrollmentCount = 0.29
+
+This is one of the strongest meaningful relationships found.
+
+Recommendation
+
+Invest in:
+
+Better content
+Student support
+Course updates
+
+Improving ratings may increase enrollments.
+
+
+
+
+
+
+
+
+
+
+
+
+6. Price Slightly Reduces Enrollment
+
+Correlation:
+
+CoursePrice ↔ EnrollmentCount = -0.16
+
+The relationship is weak but negative.
+
+Recommendation
+
+Premium pricing is acceptable, but very high prices may reduce demand slightly.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7. Enrollment Is Stable Across the Platform
+
+Enrollment statistics:
+
+Metric	Value
+Mean	166.67
+Median	166
+Std Dev	12.52
+Interpretation
+
+Demand is distributed relatively evenly.
+
+There are no extreme superstar courses dominating enrollments.
+
+
+
+
+
+
+
+
+
+
+
+
+8. Teacher Experience Has Minimal Impact
+
+Correlation:
+
+YearsOfExperience ↔ EnrollmentCount = 0.006
+
+Essentially zero.
+
+Recommendation
+
+Students appear to value:
+
+Course quality
+Course topic
+Ratings
+
+more than instructor experience.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Critical Modeling Observation
+
+You discovered:
+
+CoursePrice ↔ TotalRevenue = 1.00
+CoursePrice ↔ AvgRevenue = 1.00
+
+and
+
+EnrollmentCount ↔ UniqueStudents = 1.00
+
+These indicate severe multicollinearity.
+
+For Task 4 (Preprocessing), we will likely remove:
+
+AvgRevenue
+UniqueStudents
+
+to avoid redundant information.
+
+EDA Conclusion
+
+The platform's revenue is primarily driven by:
+
+Course Category
+Course Price
+Course Rating
+Course Level
+
+while:
+
+Teacher Experience
+Teacher Rating
+
+appear to have limited influence on enrollments.

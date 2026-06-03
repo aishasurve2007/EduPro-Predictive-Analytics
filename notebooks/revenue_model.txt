@@ -1,0 +1,9 @@
+For Your Project
+
+I would keep the Category Revenue model.
+
+But in the report, explicitly state:
+
+Category revenue was found to be overwhelmingly driven by average course price (correlation = 0.998). As a result, predictive models achieved near-perfect performance. This reflects the structure of the dataset rather than model overfitting.
+
+That's a strong data science observation.
