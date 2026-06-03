@@ -1,0 +1,15 @@
+# EduPro Predictive Analytics - Python dependencies
+# Install with:  pip install -r requirements.txt
+
+# Core data handling and machine learning
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+joblib>=1.3
+
+# Visualization
+matplotlib>=3.7
+seaborn>=0.12
+
+# Jupyter notebook environment (to run the .ipynb files)
+jupyter>=1.0
